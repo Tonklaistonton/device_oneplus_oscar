@@ -27,3 +27,8 @@ BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 
 # Include the proprietary files BoardConfig.
 include vendor/oneplus/oscar/BoardConfigVendor.mk
+
+#kernel Config
+KERNEL_TOOLCHAIN := $(abspath .)/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9/bin
+TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-android-
+KERNEL_TOOLCHAIN := /tmp/src/android/tc/bin
