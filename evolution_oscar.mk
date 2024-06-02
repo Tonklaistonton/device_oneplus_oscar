@@ -12,13 +12,17 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/oneplus/oscar/device.mk)
 
 # Inherit some common Derpfest stuff.
-$(call inherit-product, vendor/derp/config/common_full_phone.mk)
+$(call inherit-product, vendor/evolution/config/common_full_phone.mk)
 
-PRODUCT_NAME := derp_oscar
+PRODUCT_NAME := evolution_oscar
 PRODUCT_DEVICE := oscar
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
 PRODUCT_MODEL := CPH2381
+
+TARGET_USES_OPLUS_CAMERA := true
+TARGET_NEEDS_OPLUS_VENDOR_TAG := true
+
 
 PRODUCT_SYSTEM_NAME := OP535DL1
 PRODUCT_SYSTEM_DEVICE := OP535DL1
