@@ -20,6 +20,11 @@ PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
 PRODUCT_MODEL := CPH2381
 
+#kernel Config
+KERNEL_TOOLCHAIN := $(abspath .)/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9/bin
+TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-android-
+KERNEL_TOOLCHAIN := /tmp/src/android/tc/bin
+
 PRODUCT_SYSTEM_NAME := OP535DL1
 PRODUCT_SYSTEM_DEVICE := OP535DL1
 
