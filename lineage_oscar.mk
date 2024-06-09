@@ -14,6 +14,9 @@ $(call inherit-product, device/oneplus/oscar/device.mk)
 # Inherit some common Evolution stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+#add evothink
+TARGET_DISABLE_EPPE := true
+
 PRODUCT_NAME := lineage_oscar
 PRODUCT_DEVICE := oscar
 PRODUCT_MANUFACTURER := OnePlus
