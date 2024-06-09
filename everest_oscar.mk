@@ -15,9 +15,9 @@ $(call inherit-product, device/oneplus/oscar/device.mk)
 $(call inherit-product, vendor/everest/config/common_full_phone.mk)
 
 # Everest Maintainer Stuff
-EVEREST_BUILD_TYPE := OFFICIAL
-EVEREST_MAINTAINER := phhgsi
-WITH_GAPPS := true
+EVEREST_BUILD_TYPE := UNOFFICIAL
+EVEREST_MAINTAINER := TonTon
+WITH_GAPPS := false
 TARGET_INCLUDE_PIXEL_LAUNCHER := false
 
 # Device Specifications 
