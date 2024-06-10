@@ -12,6 +12,10 @@ DEVICE_PATH := device/oneplus/oscar
 # Display
 TARGET_SCREEN_DENSITY := 480
 
+# HIDL
+DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := \
+    vendor/lineage/config/device_framework_matrix.xml
+
 # OTA assert
 TARGET_OTA_ASSERT_DEVICE := oscar,OP535DL1,RE54CBL1
 
