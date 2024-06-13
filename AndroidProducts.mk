@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_oscar.mk
+    $(LOCAL_DIR)/lineage-oscar.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_oscar-user \
-    lineage_oscar-userdebug \
-    lineage_oscar-eng
+    lineage-oscar-user \
+    lineage-oscar-userdebug \
+    lineage-oscar-eng
