@@ -14,6 +14,8 @@ $(call inherit-product, device/oneplus/oscar/device.mk)
 # Inherit some common Derpfest stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+TARGET_DISABLE_EPPE := true
+
 PRODUCT_NAME := lineage_oscar
 PRODUCT_DEVICE := oscar
 PRODUCT_MANUFACTURER := OnePlus
