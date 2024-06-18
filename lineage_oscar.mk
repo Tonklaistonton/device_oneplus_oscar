@@ -16,6 +16,7 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 #add evothink
 TARGET_DISABLE_EPPE := true
+TARGET_USES_MINI_GAPPS := true
 
 PRODUCT_NAME := lineage_oscar
 PRODUCT_DEVICE := oscar
